@@ -1,0 +1,108 @@
+
+* {box-sizing: 
+	border-box;
+	margin: 0;
+	padding: 0;} 
+
+	header div .logo {
+		padding: 30px 0;
+
+	}
+	
+	header div .logo img{
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	header nav {
+		margin: 0;
+		padding: 0;
+		background-color: black;
+		top: 0;
+		width: 100%; 
+		position:-webkit-sticky;
+		position: sticky;
+	}
+	header nav .menu {
+		text-align: center;
+	}
+
+	header nav .menu li {
+		display: inline-block;
+		margin: 0 20px;
+		position: relative;
+	}
+	header nav .menu  li a {
+		color: red;
+		text-decoration: none;
+		font-size: 25px;
+
+
+
+	}
+	header nav .menu li .submenu {
+	background: gray;
+	position: absolute;
+	display: none;
+}
+	header nav .menu li .submenu li  {
+	display: block;
+}
+/* PSEUDOCLASES --> HOVER */
+header nav .menu li:hover .submenu {
+	display: block;
+}
+  .primer_imagen img{
+	position: absolute;
+	width: 450px;
+	height: 400px;
+	left: 700px;
+	bottom:  -100px;
+}
+
+div .segunda_imagen {
+	width: 100px;
+	height: 100px;
+
+	position: absolute;
+	right: 10%;
+	bottom: 5%;
+
+	}
+  
+	img .killers {
+		width:100%;
+	}
+	body  {
+	background-image: url('../imagenes/fondos.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	border-width: 10px;
+	padding: 10px;
+
+	}
+
+	section p {
+		font-family: 'Nanum Gothic', sans-serif;
+		font-weight: 50px;
+		font-size: 20px;
+		background: rgba(255, 99, 71, 0.5);
+		word-spacing: 10px;
+		text-align: center;
+		width: 100%;
+	}
+	section iframe {
+		width: 100%;
+	}
+	.fixed a {
+		background: gray;
+		width: 50px;
+		height: 50px;
+		position: fixed;
+		display: inline-block;
+		border-radius: 50%;
+		left: 20px;
+		bottom: 20px
+
+	}
